@@ -25,14 +25,12 @@
     }
     .top-wrapper {
         text-align: left;
+        background-image: url('../img/meeting.jpg');
     }
-    .top-wrapper h1 {
+    .top-wrapper h2 {
+        color: white;
         font-size: 24px;
         line-height: 36px;
-    }
-    .top-wrapper p {
-        font-size: 14px;
-        line-height: 20px;
     }
     .btn {
         width: 100%;
@@ -40,8 +38,19 @@
     .facebook {
         margin-bottom: 10px;
     }
+    .heading h2 {
+        text-transform: capitalize;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 700;
+        font-style: bold;
+    }
     .lesson {
         width: 100%;
+    }
+    .text-contents {
+        width: 100%;
+        font-size: 20px;
     }
     .lesson-icon img {
         width: 100%;

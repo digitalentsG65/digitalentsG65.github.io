@@ -268,7 +268,7 @@ We may release future updates so it will overwrite this file. it's better and sa
             var preLoader = $('.preLoader');
             preLoader.fadeOut();
         }
-        setTimeout(removePreloader, 250);
+        setTimeout(removePreloader, 1000);
     });
 
 
