@@ -1,15 +1,48 @@
 /* Untuk Tablet */
 
 @media all and (max-width: 1000px) {
+    .top-wrapper {
+        text-align: center;
+        background-image: url('../img/meeting.jpg');
+        margin-top: -20px;
+    }
+    .top-wrapper .container {
+        padding-top: 100px;
+    }
+    .top-wrapper h2 {
+        font-size: 22px;
+    }
     .lesson {
         width: 50%;
         margin-bottom: 50px;
     }
-    .top-wrapper h1 {
-        font-size: 32px;
-    }
     .heading h2 {
         font-size: 20px;
+    }
+    .customer-wrapper,
+    .designer-wrapper {
+        height: 750px;
+    }
+    .designer-wrapper h2,
+    .customer-wrapper h2 {
+        font-weight: normal;
+        text-align: center;
+    }
+    .fiture-designer,
+    .fiture-customer {
+        width: 50%;
+    }
+}
+
+@media all and(max-width: 670px) {
+    /* Start CSS Navbar Responsive */
+    .header-right ul li a {
+        display: none;
+    }
+    .header-right ul li.icon a {
+        float: right;
+        display: inline-block;
+        position: relative;
     }
 }
 
@@ -17,20 +50,27 @@
 /* Untuk Smartphone */
 
 @media all and (max-width: 670px) {
+    .header-right.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    /* END CSS Navbar Responsive */
     .header-right {
         display: none;
-    }
-    .menu-icon {
-        display: block;
     }
     .top-wrapper {
         text-align: left;
         background-image: url('../img/meeting.jpg');
+        height: 580px;
     }
     .top-wrapper h2 {
         color: white;
         font-size: 24px;
         line-height: 36px;
+        padding-bottom: 10px;
+        top: -80px;
+        margin-top: -20px;
     }
     .btn {
         width: 100%;
@@ -39,9 +79,9 @@
         margin-bottom: 10px;
     }
     .heading h2 {
-        text-transform: capitalize;
+        text-transform: uppercase;
         text-align: center;
-        font-size: 15px;
+        font-size: 13px;
         font-weight: 700;
         font-style: bold;
     }
